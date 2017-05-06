@@ -1,0 +1,8 @@
+registers:
+  R0
+
+configuration:
+  0
+
+instructions:
+  L0 : R0+ -> L0

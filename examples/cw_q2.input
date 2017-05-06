@@ -1,0 +1,11 @@
+registers:
+  R0
+
+configuration:
+  11
+
+instructions:
+  L0 : R0- -> L3, L1
+  L1 : HALT
+  L2 : R0+ -> Lo
+  L3 : R0- -> L0, L1

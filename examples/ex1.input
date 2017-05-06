@@ -1,0 +1,12 @@
+registers:
+  R0 R1 R2
+
+configuration:
+  0  1  2
+
+instructions:
+  L0 : R1- -> L1, L2
+  L1 : R0+ -> L0
+  L2 : R2- -> L3, L4
+  L3 : R0+ -> L2
+  L4 : HALT
